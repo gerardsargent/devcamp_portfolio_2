@@ -3,8 +3,6 @@
 <%= image_tag @portfolio_item.main_image %>
 <p><%= @portfolio_item.body %></p>
 <h2>Technologies Used:</h2>
-<% if @portfolio_item.technologies %>
-    <% @portfolio_item.technologies.each do |t| %>
-        <p><%= t.name %></p>
-    <% end %>
+<% @portfolio_item.technologies.each do |t| %>
+    <p><%= t.name %></p>
 <% end %>

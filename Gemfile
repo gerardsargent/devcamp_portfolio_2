@@ -59,3 +59,8 @@ gem 'friendly_id', '~> 5.1.0'
 
 # Authentication
 gem 'devise', '~> 4.4', '>= 4.4.3'
+
+# Authorization
+gem 'petergate', '~> 1.8', '>= 1.8.1'
+
+gem 'bootstrap', '~> 4.1.0'

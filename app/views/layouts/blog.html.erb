@@ -14,50 +14,28 @@
 
   <body>
     
-    <!-- Start of container -->
     <div class="container">
 
-      <!-- Start of header -->
       <%= render 'shared/blog_header' %>
-      <!-- End of header -->
-
-      <!-- Start of blog nav -->
       <%= render 'shared/blog_nav' %>
-      <!-- End of blog nav -->
-    </div> <!-- End of top container -->
 
-    <!-- start of container -->
-    
+    </div> 
+
     <div class="container">
-
-      <!-- start of row -->
       <div class="row">
-
         <main role="main" class="container">
-
           <div class="row">
 
             <%= yield %>
             <%= render 'shared/blog_sidebar' %>
 
           </div>
-
         </main>
-
         <%= source_helper("blog") %>
-
       </div> <!-- /.row -->
-
     </div> <!-- /.container -->
 
-    <!-- .footer -->
-    <footer class="blog-footer">
-      <p>Blog template built for <a href="https://getbootstrap.com/">Bootstrap</a> by <a href="https://twitter.com/mdo">@mdo</a>.</p>
-      <p>
-        <a href="#">Back to top</a>
-      </p>
-    </footer>
-    <!-- /.footer -->
+    <%= render 'shared/blog_footer' %>
       
   </body>
 </html>

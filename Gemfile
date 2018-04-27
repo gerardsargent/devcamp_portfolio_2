@@ -64,3 +64,8 @@ gem 'devise', '~> 4.4', '>= 4.4.3'
 gem 'petergate', '~> 1.8', '>= 1.8.1'
 
 gem 'bootstrap', '~> 4.1.0'
+
+gem 'font-awesome-sass', '~> 5.0', '>= 5.0.9'
+
+# Pagination
+gem 'will_paginate', '~> 3.1'

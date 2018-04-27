@@ -17,4 +17,8 @@ module ApplicationHelper
     end
   end
 
+  def copyright_generator
+    '© 2018 Ged Sargent | All rights reserved'
+  end
+
 end

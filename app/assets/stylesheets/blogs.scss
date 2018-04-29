@@ -149,6 +149,12 @@ h1, h2, h3, h4, h5, h6 {
  * Custom styles
  */
 
+ .active {
+   color: tint($blog_nav_grey, 30%);
+   border-bottom: 5px solid $blog_nav_grey;
+   padding-bottom: 5px;
+ }
+
  .blog-login-btn {
    margin-left: 10px;
  }
@@ -187,6 +193,11 @@ h1, h2, h3, h4, h5, h6 {
 
  .nav span {
    padding: 0.5rem !important;
+ }
+
+ .nav span a:hover {
+   text-decoration: none;
+   color: shade($blog_nav_grey, 30%) !important;
  }
 
  .social-links li a {

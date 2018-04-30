@@ -69,3 +69,5 @@ gem 'font-awesome-sass', '~> 5.0', '>= 5.0.9'
 
 # Pagination
 gem 'will_paginate', '~> 3.1'
+
+gem 'jquery-ui-rails', '~> 5.0', '>= 5.0.5'
